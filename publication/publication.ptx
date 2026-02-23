@@ -16,7 +16,7 @@
     <index-page ref="welcome" />
     <css style="default" colors="blue_grey" />
     <search variant="default" />
-    <baseurl href="https://lilyclements.github.io/ims/" />
+    <baseurl href="https://pretextbooks.github.io/ims/" />
     <knowl listing="yes" />
   </html>
 </publication>
