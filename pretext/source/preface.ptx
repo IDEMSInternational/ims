@@ -4,25 +4,25 @@
   <title>Preface</title>
   
   <p>
-    <alert>About this PreTeXt Version</alert>
+    <alert>Note on This PreTeXt Edition</alert>
   </p>
   
   <p>
-    This is the PreTeXt version of <em>Introduction to Modern Statistics</em> (Second Edition), originally authored by Mine Çetinkaya-Rundel and Johanna Hardin. This conversion aims to make the book more accessible and interactive in the PreTeXt format, while preserving the excellent content and pedagogy of the original work.
+    This is a <url href="https://pretextbook.org/">PreTeXt</url> conversion of <em>Introduction to Modern Statistics</em> (Second Edition), originally written by Mine Çetinkaya-Rundel and Johanna Hardin. The original work is available online at <url href="https://openintro-ims.netlify.app/">openintro-ims.netlify.app</url>, and the original GitHub repository for the book source is <url href="https://github.com/openintrostat/ims">github.com/openintrostat/ims</url>.
   </p>
   
   <p>
-    The original book and source files are available at:
-    <ul>
-      <li><p>Original book website: <url href="https://openintro-ims.netlify.app/">https://openintro-ims.netlify.app/</url></p></li>
-      <li><p>Original GitHub repository: <url href="https://github.com/openintrostat/ims">https://github.com/openintrostat/ims</url></p></li>
-      <li><p>PreTeXt conversion repository: <url href="https://github.com/PreTeXtBooks/ims">https://github.com/PreTeXtBooks/ims</url></p></li>
-    </ul>
+    This PreTeXt edition was prepared by the <url href="https://github.com/PreTeXtBooks/ims">PreTeXtBooks project</url> to make the content available in the PreTeXt format, enabling accessible and structured output in HTML, PDF, and other formats. All prose, code examples, figures, and mathematical content are intended to be faithful reproductions of the original work, though occasional typographical errors may have been introduced in the conversion process. Report any issues to our <url href="https://github.com/PreTeXtBooks/ims/issues">GitHub Issues page</url>.
   </p>
-  
-  <p>
-    We are grateful to the original authors for creating this exceptional open-source textbook and making it available for adaptation and conversion to other formats.
-  </p>
+
+<p>
+         <em>This PreTeXt edition is an independent derivative work and is neither an OpenIntro
+          product nor endorsed by OpenIntro.</em>
+          OpenIntro is a registered trademark.
+The original work by Mine Çetinkaya-Rundel and Johanna Hardin is licensed under a <url href="https://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-ShareAlike 3.0 License</url>.
+          This derivative work is likewise released under the same
+          <url href="https://creativecommons.org/licenses/by-sa/3.0/us/" visual="creativecommons.org/licenses/by-sa/3.0/us">Creative Commons Attribution-ShareAlike 3.0 United States License</url>.
+</p>
   
   <p>
     <alert>Welcome</alert>
