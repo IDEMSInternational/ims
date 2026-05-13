@@ -120,7 +120,7 @@ The original work by Mine Çetinkaya-Rundel and Johanna Hardin is licensed under
   </example>
   
   <p>
-    When we think the reader is ready to try determining a solution on their own, we frame it as Guided Practice. The reader may check or learn the answer to any Guided Practice problem by reviewing the full solution provided. Guided Practice problems are intended to stretch your thinking, and you can check yourself by reviewing the solution for any Guided Practice.
+    When we think the reader is ready to try determining a solution on their own, we frame it as Guided Practice. The reader may check or learn the answer to any Guided Practice problem by reviewing the full solution in a footnote<fn>Guided Practice problems are intended to stretch your thinking, and you can check yourself by reviewing the footnote solution for any Guided Practice.</fn>.
   </p>
   
   <p>
@@ -132,7 +132,7 @@ The original work by Mine Çetinkaya-Rundel and Johanna Hardin is licensed under
   </p>
   
   <p>
-    A large majority of the datasets used in the book can be found in various R packages. Each time a new dataset is introduced in the narrative, a reference to the package is provided. Many of these datasets are in the <em>openintro</em> R package that contains datasets used in OpenIntro's open-source textbooks.
+    A large majority of the datasets used in the book can be found in various R packages. Each time a new dataset is introduced in the narrative, a reference to the package is provided. Many of these datasets are in the <em>openintro</em> R package that contains datasets used in OpenIntro's open-source textbooks<fn>Mine Çetinkaya-Rundel and David Diez and Andrew Bray and Albert Y. Kim and Ben Baumer and Chester Ismay and Nick Paterno and Christopher Barr (2024). openintro: Datasets and Supplemental Functions from OpenIntro Textbooks and Labs. R package version 2.5.0. <url href="https://github.com/openintrostat/openintro">https://github.com/openintrostat/openintro</url>.</fn>.
   </p>
   
   <p>
