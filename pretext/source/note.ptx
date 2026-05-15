@@ -1,9 +1,7 @@
   <?xml version="1.0" encoding="UTF-8" ?>
 
 <preface xml:id="note-on-this-edition">
-  <title>Note on This PreTeXt Edition</title>
-  </p>
-  
+  <title>Note on This PreTeXt Edition</title>  
   <p>
     This is a <url href="https://pretextbook.org/">PreTeXt</url> conversion of <em>Introduction to Modern Statistics</em> (Second Edition), originally written by Mine Çetinkaya-Rundel and Johanna Hardin. The original work is available online at <url href="https://openintro-ims.netlify.app/">openintro-ims.netlify.app</url>, and the original GitHub repository for the book source is <url href="https://github.com/openintrostat/ims">github.com/openintrostat/ims</url>.
   </p>
