@@ -26,6 +26,8 @@
 
       <xi:include href="welcome.ptx" />
 
+      <xi:include href="authors.ptx" />
+
       <xi:include href="preface.ptx" />
     </frontmatter>
 

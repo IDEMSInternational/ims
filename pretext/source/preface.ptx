@@ -83,7 +83,7 @@ The original work by Mine Çetinkaya-Rundel and Johanna Hardin is licensed under
   </p>
   
   <p>
-    While the second edition does not represent a major change from the first edition, we have worked hard to improve content, to add exercises, and to update text and code to reflect changes in best practices (e.g., the book is now written in Quarto).
+    While the second edition does not represent a major change from the <url href="https://openintro-ims1.netlify.app/">first edition</url>, we have worked hard to improve content, to add exercises, and to update text and code to reflect changes in best practices (e.g., the book is now written in <url href="https://quarto.org/">Quarto</url>).
   </p>
   
   <p>
@@ -92,8 +92,8 @@ The original work by Mine Çetinkaya-Rundel and Johanna Hardin is licensed under
   
   <ul>
     <li><p>Twenty-five completely new exercises were added. Most of the new exercises are concatenated onto existing exercises so as to retain similar numbering across editions. However, a few exercises have been moved in order to produce both odd exercises (with solutions) and even exercises (without solutions) on the same topic.</p></li>
-    <li><p>Multiple datasets were added or updated. For example, the <c>pm25_2022_durham</c> data on air quality in Durham, NC in 2022 can be found in the openintro R package.</p></li>
-    <li><p>The Data Applications chapter was re-written with an updated context and data example. Additionally, in this chapter, we explore Simpson's Paradox.</p></li>
+    <li><p>Multiple datasets were added or updated. For example, the <url href="http://openintrostat.github.io/openintro/reference/pm25_2022_durham.html"><c>pm25_2022_durham</c></url> data on air quality in Durham, NC in 2022 can be found in the <url href="https://openintrostat.github.io/openintro/"><em>openintro</em></url> R package.</p></li>
+    <li><p><xref ref="ch03-data-applications" /> was re-written with an updated context and data example. Additionally, in <xref ref="ch03-data-applications" />, we explore Simpson's Paradox.</p></li>
     <li><p>Throughout the text and the exercises, <q>statistically significant</q> has been changed to <q>statistically discernible</q> so as to distance ourselves from the more colloquial use of the word <q>significant.</q></p></li>
   </ul>
   
@@ -124,7 +124,7 @@ The original work by Mine Çetinkaya-Rundel and Johanna Hardin is licensed under
   </p>
   
   <p>
-    Exercises are also provided at the end of each chapter. Solutions are given for odd-numbered exercises in the appendix.
+    Exercises are also provided at the end of each chapter. Solutions are given for odd-numbered exercises in <xref ref="appendix-exercise-solutions" />.
   </p>
   
   <p>
@@ -132,7 +132,7 @@ The original work by Mine Çetinkaya-Rundel and Johanna Hardin is licensed under
   </p>
   
   <p>
-    A large majority of the datasets used in the book can be found in various R packages. Each time a new dataset is introduced in the narrative, a reference to the package is provided. Many of these datasets are in the <em>openintro</em> R package that contains datasets used in OpenIntro's open-source textbooks<fn>Mine Çetinkaya-Rundel and David Diez and Andrew Bray and Albert Y. Kim and Ben Baumer and Chester Ismay and Nick Paterno and Christopher Barr (2024). openintro: Datasets and Supplemental Functions from 'OpenIntro' Textbooks and Labs. R package version 2.5.0. <url href="https://github.com/openintrostat/openintro">https://github.com/openintrostat/openintro</url>.</fn>.
+    A large majority of the datasets used in the book can be found in various R packages. Each time a new dataset is introduced in the narrative, a reference to the package is provided. Many of these datasets are in the <url href="http://openintrostat.github.io/openintro"><em>openintro</em></url> R package that contains datasets used in <url href="https://www.openintro.org/">OpenIntro</url>'s open-source textbooks<fn>Mine Çetinkaya-Rundel and David Diez and Andrew Bray and Albert Y. Kim and Ben Baumer and Chester Ismay and Nick Paterno and Christopher Barr (2024). openintro: Datasets and Supplemental Functions from 'OpenIntro' Textbooks and Labs. R package version 2.5.0. <url href="https://github.com/openintrostat/openintro">https://github.com/openintrostat/openintro</url>.</fn>.
   </p>
   
   <p>
@@ -208,7 +208,7 @@ The original work by Mine Çetinkaya-Rundel and Johanna Hardin is licensed under
   </ul>
   
   <p>
-    We would like to also thank the developers of the open-source tools that make the development and authoring of this book possible, e.g., Quarto, tidyverse, tidymodels, and icons8.
+    We would like to also thank the developers of the open-source tools that make the development and authoring of this book possible, e.g., <url href="https://quarto.org/">Quarto</url>, <url href="https://tidyverse.org/">tidyverse</url>, <url href="https://tidymodels.org/">tidymodels</url>, and <url href="http://icons8.com/">icons8</url>.
   </p>
   
   <p>
