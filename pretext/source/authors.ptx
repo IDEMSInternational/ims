@@ -11,7 +11,7 @@
       <p>Duke University, Posit, PBC.</p>
       <p><url href="mailto:mine@openintro.org">mine@openintro.org</url></p>
     </stack>
-    <image source="../../images/authors/mine.png" width="100%">
+    <image source="images/authors/mine.png" width="100%">
       <description>Mine Çetinkaya-Rundel</description>
     </image>
   </sidebyside>
@@ -33,7 +33,7 @@
       <p>Pomona College</p>
       <p><url href="mailto:jo.hardin@pomona.edu">jo.hardin@pomona.edu</url></p>
     </stack>
-    <image source="../../images/authors/jo.png" width="100%">
+    <image source="images/authors/jo.png" width="100%">
       <description>Johanna Hardin</description>
     </image>
   </sidebyside>
