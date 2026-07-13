@@ -32,9 +32,9 @@
 <p>The unknown population model can be written as:</p>
 
 <md>
-  <mrow>E[\texttt{interest_rate}] = \beta_0 \amp+ \beta_1\times \texttt{debt_to_income}</mrow>
+  <mrow>E[\texttt{interest\_rate}] = \beta_0 \amp+ \beta_1\times \texttt{debt\_to\_income}</mrow>
   <mrow>\amp+ \beta_2 \times \texttt{term}</mrow>
-  <mrow>\amp+ \beta_3 \times \texttt{credit_checks}</mrow>
+  <mrow>\amp+ \beta_3 \times \texttt{credit\_checks}</mrow>
 </md>
 
 <listing xml:id="listing-loansmodel-code">
@@ -111,7 +111,7 @@ lm(interest_rate ~ debt_to_income + term + credit_checks, data = loans) |&gt;
 
 <p>The estimated equation for the regression model may be written as a model with three predictor variables:</p>
 
-<me>\widehat{\texttt{interest_rate}} = 4.31 + 0.041 \times \texttt{debt_to_income} + 0.16 \times \texttt{term} + 0.25 \times \texttt{credit_checks}</me>
+<me>\widehat{\texttt{interest\_rate}} = 4.31 + 0.041 \times \texttt{debt\_to\_income} + 0.16 \times \texttt{term} + 0.25 \times \texttt{credit\_checks}</me>
 
 <p>Not only does <xref ref="tbl-loansmodel" /> provide the estimates for the coefficients, it also provides information on the inference analysis (i.e., hypothesis testing) which is the focus of this chapter.</p>
 
@@ -203,7 +203,7 @@ ggplot(money, aes(y = total_amount, x = number_of_low_coins)) +
 <p>For every additional coin in the dish, we would predict that the student had US$0.13 more.</p>
 <p>The <m>b_1 = 0.13</m> coefficient has a small p-value associated with it, suggesting we would not have seen data like this if <c>number_of_coins</c> and <c>total_amount</c> of money were not linearly related.</p>
 
-<me>\widehat{\texttt{total_amount}} = 0.55 + 0.13 \times \texttt{number_of_coins}</me>
+<me>\widehat{\texttt{total\_amount}} = 0.55 + 0.13 \times \texttt{number\_of\_coins}</me>
 
 <listing xml:id="listing-coinhigh-code">
   <caption>R code for linear model with total number of coins</caption>
@@ -257,7 +257,7 @@ lm(total_amount ~ number_of_coins, data = money) |&gt;
 <p>For every additional low coin in the dish, we would predict that the student had US$0.02 more.</p>
 <p>The <m>b_1 = 0.02</m> coefficient has a large p-value associated with it, suggesting we could easily have seen data like ours even if the <c>number_of_low_coins</c> and <c>total_amount</c> of money are not at all linearly related.</p>
 
-<me>\widehat{\texttt{total_amount}} = 2.28 + 0.02 \times \texttt{number_of_low_coins}</me>
+<me>\widehat{\texttt{total\_amount}} = 2.28 + 0.02 \times \texttt{number\_of\_low\_coins}</me>
 
 <listing xml:id="listing-coinlow-code">
   <caption>R code for linear model with number of low coins</caption>
@@ -348,8 +348,8 @@ Note also, however, that the p-value for the <c>number_of_low_coins</c> coeffici
 It makes sense that the variable describing the <c>number_of_low_coins</c> provides more information about the <c>total_amount</c> of money when it is part of a model which also includes the total <c>number_of_coins</c> than it does when it is used as a single variable in a simple linear regression model.</p>
 
 <md>
-  <mrow>\widehat{\texttt{total_amount}} = 0.80 \amp+ 0.21 \times \texttt{number_of_coins}</mrow>
-  <mrow>\amp- 0.16 \times \texttt{number_of_low_coins}</mrow>
+  <mrow>\widehat{\texttt{total\_amount}} = 0.80 \amp+ 0.21 \times \texttt{number\_of\_coins}</mrow>
+  <mrow>\amp- 0.16 \times \texttt{number\_of\_low\_coins}</mrow>
 </md>
 
 <listing xml:id="listing-coinhighlow-code">
@@ -481,8 +481,8 @@ However, in this section, we will go beyond the use of p-values to consider inde
 <p><alert>The smaller model:</alert></p>
 
 <md>
-  <mrow>E[\texttt{body_mass_g}] \amp= \ \beta_0 + \beta_1 \times \texttt{bill_length_mm}</mrow>
-  <mrow>\widehat{\texttt{body_mass_g}} \amp= \ 362.31 + 87.42 \times \texttt{bill_length_mm}</mrow>
+  <mrow>E[\texttt{body\_mass\_g}] \amp= \ \beta_0 + \beta_1 \times \texttt{bill\_length\_mm}</mrow>
+  <mrow>\widehat{\texttt{body\_mass\_g}} \amp= \ 362.31 + 87.42 \times \texttt{bill\_length\_mm}</mrow>
 </md>
 
 <listing xml:id="listing-peng-lm-bill-code">
@@ -536,15 +536,15 @@ lm(body_mass_g ~ bill_length_mm, data = penguins) |&gt;
 <p><alert>The larger model:</alert></p>
 
 <md>
-  <mrow>E[\texttt{body_mass_g}] = \beta_0 \amp+ \beta_1 \times \texttt{bill_length_mm}</mrow>
-  <mrow>\amp+ \beta_2 \times \texttt{bill_depth_mm}</mrow>
-  <mrow>\amp+ \beta_3 \times \texttt{flipper_length_mm}</mrow>
+  <mrow>E[\texttt{body\_mass\_g}] = \beta_0 \amp+ \beta_1 \times \texttt{bill\_length\_mm}</mrow>
+  <mrow>\amp+ \beta_2 \times \texttt{bill\_depth\_mm}</mrow>
+  <mrow>\amp+ \beta_3 \times \texttt{flipper\_length\_mm}</mrow>
   <mrow>\amp+ \beta_4 \times \texttt{sex}_{\text{male}}</mrow>
   <mrow>\amp+ \beta_5 \times \texttt{species}_{\text{Chinstrap}}</mrow>
   <mrow>\amp+ \beta_6 \times \texttt{species}_{\text{Gentoo}}</mrow>
-  <mrow>\widehat{\texttt{body_mass_g}} = -1460.99 \amp+ 18.20 \times \texttt{bill_length_mm}</mrow>
-  <mrow>\amp+ 67.22 \times \texttt{bill_depth_mm}</mrow>
-  <mrow>\amp+ 15.95 \times \texttt{flipper_length_mm}</mrow>
+  <mrow>\widehat{\texttt{body\_mass\_g}} = -1460.99 \amp+ 18.20 \times \texttt{bill\_length\_mm}</mrow>
+  <mrow>\amp+ 67.22 \times \texttt{bill\_depth\_mm}</mrow>
+  <mrow>\amp+ 15.95 \times \texttt{flipper\_length\_mm}</mrow>
   <mrow>\amp+ 389.89 \times \texttt{sex}_{\text{male}}</mrow>
   <mrow>\amp- 251.48 \times \texttt{species}_{\text{Chinstrap}}</mrow>
   <mrow>\amp+ 1014.63 \times \texttt{species}_{\text{Gentoo}}</mrow>

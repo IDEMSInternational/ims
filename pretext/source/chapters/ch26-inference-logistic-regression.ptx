@@ -281,11 +281,11 @@ par(par_og) # restore original par
 
 <p>As you learned in <xref ref="sec-model-mlr" />, optimization can be used to find the coefficient estimates for the logistic model. The unknown population model can be written as:</p>
 
-<me>\begin{aligned}\log_e\bigg(\frac{p}{1-p}\bigg) = \beta_0 &amp;+ \beta_1 \times \texttt{to_multiple}\\&amp;+ \beta_2 \times \texttt{cc} \\&amp;+ \beta_3 \times \texttt{dollar}\\&amp;+ \beta_4 \times \texttt{urgent_subj}\end{aligned}</me>
+<me>\begin{aligned}\log_e\bigg(\frac{p}{1-p}\bigg) = \beta_0 &amp;+ \beta_1 \times \texttt{to\_multiple}\\&amp;+ \beta_2 \times \texttt{cc} \\&amp;+ \beta_3 \times \texttt{dollar}\\&amp;+ \beta_4 \times \texttt{urgent\_subj}\end{aligned}</me>
 
 <p>The estimated equation for the regression model may be written as a model with four predictor variables, where <m>\hat{p}</m> is the estimated probability of being a spam email message:</p>
 
-<me>\begin{aligned}\log_e\bigg(\frac{\hat{p}}{1-\hat{p}}\bigg) = -2.05 &amp;-1.91 \times \texttt{to_multiple}\\&amp;+ 0.02 \times \texttt{cc} \\&amp;- 0.07 \times \texttt{dollar}\\&amp;+ 2.66 \times \texttt{urgent_subj}\end{aligned}</me>
+<me>\begin{aligned}\log_e\bigg(\frac{\hat{p}}{1-\hat{p}}\bigg) = -2.05 &amp;-1.91 \times \texttt{to\_multiple}\\&amp;+ 0.02 \times \texttt{cc} \\&amp;- 0.07 \times \texttt{dollar}\\&amp;+ 2.66 \times \texttt{urgent\_subj}\end{aligned}</me>
 
 <table xml:id="tbl-emaillogmodel">
   <title>Summary of a logistic model for predicting whether an email is spam based on the variables to_multiple, cc, dollar, and urgent_subj. Each of the variables has its own coefficient estimate and p-value.</title>
@@ -367,7 +367,7 @@ par(par_og) # restore original par
 
 <p><alert>The smaller model:</alert></p>
 
-<me>\log_e\bigg(\frac{\hat{p}}{1-\hat{p}}\bigg) =  -2.12 + -1.81 \times \texttt{to_multiple}</me>
+<me>\log_e\bigg(\frac{\hat{p}}{1-\hat{p}}\bigg) =  -2.12 + -1.81 \times \texttt{to\_multiple}</me>
 
 <table xml:id="tbl-emaillogmodel1">
   <title>The smaller model. Summary of a logistic model for predicting whether an email is spam based on only the predictor variable to_multiple. Each of the variables has its own coefficient estimate and p-value.</title>
@@ -452,7 +452,7 @@ par(par_og) # restore original par
 
 <p><alert>The larger model:</alert></p>
 
-<me>\begin{aligned}\log_e\bigg(\frac{\hat{p}}{1-\hat{p}}\bigg) = -0.34 &amp;- 2.56 \times \texttt{to_multiple} + 0.20 \times \texttt{attach} + 1.73 \times \texttt{winner}_{yes} \\&amp;- 1.28 \times \texttt{format} - 2.86 \times \texttt{re_subj} + 0.00 \times \texttt{exclaim_mess} \\&amp;- 1.07 \times \texttt{number}_{small} - 0.42 \times \texttt{number}_{big}\end{aligned}</me>
+<me>\begin{aligned}\log_e\bigg(\frac{\hat{p}}{1-\hat{p}}\bigg) = -0.34 &amp;- 2.56 \times \texttt{to\_multiple} + 0.20 \times \texttt{attach} + 1.73 \times \texttt{winner}_{yes} \\&amp;- 1.28 \times \texttt{format} - 2.86 \times \texttt{re\_subj} + 0.00 \times \texttt{exclaim\_mess} \\&amp;- 1.07 \times \texttt{number}_{small} - 0.42 \times \texttt{number}_{big}\end{aligned}</me>
 
 <table xml:id="tbl-emaillogmodel2">
   <title>The larger model. Summary of a logistic model for predicting whether an email is spam based on the variables <c>to_multiple</c>, <c>attach</c>, <c>winner</c>, <c>format</c>, <c>re_subj</c>, <c>exclaim_mess</c>, and <c>number</c>. Each of the variables has its own coefficient estimate and p-value.</title>
@@ -756,7 +756,7 @@ logCV2 &lt;- data.frame(
       Two logistic regression models are fit using 4-fold cross-validation:
     </p>
     <p>
-      Model 1: <m>\log_e \left(\frac{p}{1-p}\right) = \beta_0 + \beta_1 \times \text{tail_l}</m>
+      Model 1: <m>\log_e \left(\frac{p}{1-p}\right) = \beta_0 + \beta_1 \times \text{tail\_l}</m>
     </p>
 
 <figure xml:id="fig-ex-7">
@@ -764,7 +764,7 @@ logCV2 &lt;- data.frame(
 </figure>
 
     <p>
-      Model 2: <m>\log_e \left(\frac{p}{1-p}\right) = \beta_0 + \beta_1 \times \text{total_l} + \beta_2 \times \text{sex}</m>
+      Model 2: <m>\log_e \left(\frac{p}{1-p}\right) = \beta_0 + \beta_1 \times \text{total\_l} + \beta_2 \times \text{sex}</m>
     </p>
 
 <figure xml:id="fig-ex-7-1">
@@ -831,14 +831,14 @@ logCV2 &lt;- data.frame(
       Two logistic regression models are fit using 4-fold cross-validation:
     </p>
     <p>
-      Model 1: <m>\log_e \left(\frac{p}{1-p}\right) = \beta_0 + \beta_1 \times \text{tail_l}</m>
+      Model 1: <m>\log_e \left(\frac{p}{1-p}\right) = \beta_0 + \beta_1 \times \text{tail\_l}</m>
     </p>
 <figure xml:id="fig-ex-5">
   <image source="images/fig-ex-5.png" width="90%" />
 </figure>
 
     <p>
-      Model 2: <m>\log_e \left(\frac{p}{1-p}\right) = \beta_0 + \beta_1 \times \text{total_l} + \beta_2 \times \text{sex}</m>
+      Model 2: <m>\log_e \left(\frac{p}{1-p}\right) = \beta_0 + \beta_1 \times \text{total\_l} + \beta_2 \times \text{sex}</m>
     </p>
 <figure xml:id="fig-ex-5-1">
   <image source="images/fig-ex-5-1.png" width="90%" />

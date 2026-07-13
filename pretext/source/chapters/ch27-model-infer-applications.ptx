@@ -104,7 +104,7 @@
         In <xref ref="tbl-mariokart-model-output" /> we fit a mathematical linear regression model with the game's condition as a predictor of auction price.
       </p>
       
-      <me>E[\texttt{price}] = \beta_0 + \beta_1\times \texttt{cond_new}</me>
+      <me>E[\texttt{price}] = \beta_0 + \beta_1\times \texttt{cond\_new}</me>
       
       <p>Results of the model are summarized below:</p>
             
@@ -144,7 +144,7 @@
         </statement>
         <solution>
           <p>
-            The equation for the line may be written as <m>\widehat{\texttt{price}} = 47.15 + 10.90\times \texttt{cond_new}</m>.
+            The equation for the line may be written as <m>\widehat{\texttt{price}} = 47.15 + 10.90\times \texttt{cond\_new}</m>.
             Examining the regression output in <xref ref="tbl-mariokart-model-output" /> we can see that the p-value for <c>cond_new</c> is very close to zero, indicating there is strong evidence that the coefficient is different from zero when using this one-variable model.
             The variable <c>cond_new</c> is a two-level categorical variable that takes value 1 when the game is new and value 0 when the game is used.
             This means the 10.90 model coefficient predicts a price of an extra $10.90 for those games that are new versus those that are used.
@@ -163,7 +163,7 @@
       </p>
       
       <md>
-        <mrow>E[\texttt{price}] = \beta_0 \amp+ \beta_1 \times \texttt{cond_new} + \beta_2\times \texttt{stock_photo}</mrow>
+        <mrow>E[\texttt{price}] = \beta_0 \amp+ \beta_1 \times \texttt{cond\_new} + \beta_2\times \texttt{stock\_photo}</mrow>
         <mrow>\amp+ \beta_3 \times \texttt{duration} + \beta_4 \times  \texttt{wheels}</mrow>
       </md>
       
@@ -231,7 +231,7 @@
         </statement>
         <solution>
           <p>
-            <m>\widehat{\texttt{price}} = 36.21 + 5.13 \times \texttt{cond_new} + 1.08 \times \texttt{stock_photo} - 0.03 \times \texttt{duration} + 7.29 \times \texttt{wheels},</m> with 4 predictors but 5 coefficients (including the intercept).
+            <m>\widehat{\texttt{price}} = 36.21 + 5.13 \times \texttt{cond\_new} + 1.08 \times \texttt{stock\_photo} - 0.03 \times \texttt{duration} + 7.29 \times \texttt{wheels},</m> with 4 predictors but 5 coefficients (including the intercept).
           </p>
         </solution>
       </exercise>
