@@ -2,6 +2,13 @@
 
 <preface xml:id="preface">  
   <p>
+    Note: This is a PreTeXt adaptation of <em>Introduction to Modern Statistics</em> (Second Edition) 
+    by Mine Çetinkaya-Rundel and Johanna Hardin. This adaptation is 
+    independent and is not affiliated with or endorsed by OpenIntro.
+    This is the original text of the book that was forked.
+  </p>
+
+  <p>
     <alert>Welcome</alert>
   </p>
   
@@ -163,7 +170,7 @@
   <p>
     <alert>Acknowledgements</alert>
   </p>
-  
+  <p>Note: This is the original text of the book that was forked. This version of the book has no association with OpenIntro.</p>
   <p>
     The <em>OpenIntro</em> project would not have been possible without the dedication and volunteer hours of all those involved, and we hope you will join us in extending a huge <em>thank you</em> to all those who volunteer with OpenIntro.
   </p>
