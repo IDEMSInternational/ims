@@ -136,7 +136,7 @@
   </p>
   
   <p>
-    The self-paced and interactive R tutorials were developed using the learnr R package, and only an internet browser is needed to complete them. You can access the full list of tutorials supporting this book at <url href="https://openintrostat.github.io/ims-tutorials">https://openintrostat.github.io/ims-tutorials</url>.
+    The self-paced and interactive R tutorials were developed using the learnr R package, and only an internet browser is needed to complete them. You can access OpenIntro's full list of tutorials for the original edition of this book at <url href="https://openintrostat.github.io/ims-tutorials">https://openintrostat.github.io/ims-tutorials</url>.
   </p>
   
   <p>
@@ -148,7 +148,7 @@
   </p>
   
   <p>
-    You can access the full list of labs supporting this book at <url href="https://www.openintro.org/go?id=ims-r-labs">https://www.openintro.org/go?id=ims-r-labs</url>.
+    You can access OpenIntro's full list of labs for the original edition of this book at <url href="https://www.openintro.org/go?id=ims-r-labs">https://www.openintro.org/go?id=ims-r-labs</url>.
   </p>
   
   <p>
@@ -156,15 +156,15 @@
   </p>
   
   <p>
-    OpenIntro is an organization focused on developing free and affordable education materials. We encourage anyone learning or teaching statistics to visit <url href="http://www.openintro.org">openintro.org</url> and to get involved.
+    OpenIntro is an organization focused on developing free and affordable education materials. Anyone learning or teaching statistics is encouraged to visit <url href="http://www.openintro.org">openintro.org</url> to learn more and get involved.
   </p>
-  
+
   <p>
-    All OpenIntro resources are free and anyone is welcomed to use these online tools and resources with or without this textbook as a companion.
+    Many of the online resources referenced throughout this book, such as tutorials, labs, and datasets, were originally developed for the OpenIntro edition of this text. As this PreTeXt edition may be updated independently of the original, some linked resources may no longer exactly correspond to the content presented here, and there is no guarantee that a given resource remains available at the link provided.
   </p>
-  
+
   <p>
-    We value your feedback. If there is a part of the project you especially like or think needs improvement, we want to hear from you. For feedback on this specific book, you can open an issue on the GitHub repository of the book at <url href="https://github.com/openintrostat/ims">https://github.com/openintrostat/ims</url>. You can also provide feedback on this book or any other OpenIntro resource via our contact form at <url href="https://www.openintro.org/form/?f=contact">openintro.org</url>.
+    If you find a typo or other issue in this PreTeXt edition, please report it via the <url href="https://github.com/PreTeXtBooks/ims/issues">GitHub Issues page</url> for this project.
   </p>
   
   <p>
